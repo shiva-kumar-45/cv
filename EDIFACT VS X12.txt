@@ -1,0 +1,21 @@
+EDIFACT VS X12
+
+1.Control Characters
+    Segment Terminator (~)
+	Element Separator (*)
+	Subelement Separator (>)
+	Repetition Separator (^)
+	Escape Character (?)
+
+	In X12, the control characters may be specified at the interchange level using ISA11 and ISA16 segments, allowing for flexibility in their definition.
+
+	X12 has a more rigid structure compared to EDIFACT, with fixed-length data elements and predefined segment sequences for each transaction set.
+
+2.Segment Defintions
+			There is no Segment name  in X12 SD
+			tag--->desc
+			mandatory----->required
+			length---->min and max length (for some of the segments they have not given min max length)
+			There is no reference attribute in X12 SD
+
+FHIR
